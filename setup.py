@@ -26,6 +26,7 @@ setup(
     url='http://pybee.org/waggle',
     keywords=['beekeeper'],
     packages=find_packages(exclude=['tests']),
+    python_requires='>3.5',
     entry_points={
         'console_scripts': [
             'waggle = waggle.waggle:main',
@@ -43,9 +44,9 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
         'Topic :: Software Development',
         'Topic :: Utilities',
     ],
